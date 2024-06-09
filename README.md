@@ -17,5 +17,3 @@ I use Alacritty as my terminal. And it's configured from scratch.
 - [.zshrc](./.zshrc): Zsh Shell Configuration
 - [alacritty.toml](./.config/alacritty/alacritty.toml): Alacritty Configuration
 - [coolnight.toml](./.config/alacritty/themes/themes/coolnight.toml): Alacritty Color Scheme
-
-
