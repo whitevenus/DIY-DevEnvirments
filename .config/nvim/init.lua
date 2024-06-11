@@ -1,4 +1,3 @@
-require("whitevenus.core")
-require("whitevenus.lazy")
---require("whitevenus.core.keymaps")
---require("whitevenus.plugins.nvim-tree")
+require("config.keymaps")
+require("config.options")
+require("config.lazy")
