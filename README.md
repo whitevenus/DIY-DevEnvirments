@@ -6,6 +6,7 @@ I use Alacritty as my terminal. And it's configured from scratch.
 
 ### CLI Tools
 
+- [Tmux]()
 - [powerlevel10k theme](https://github.com/romkatv/powerlevel10k)
 - [eza(better ls)](https://github.com/eza-community/eza)
 - [zoxide(better cd)](https://github.com/ajeetdsouza/zoxide)

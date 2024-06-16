@@ -1,13 +1,10 @@
-# theme
+#===============
+#     theme
+#===============
 import = [
     "~/.config/alacritty/themes/themes/coolnight.toml"
 ]
 
-#=====
-# env
-#=====
-[env]
-TERM = "xterm-256color"
 
 #===============
 # window config
@@ -24,18 +21,15 @@ padding.y = 20
 decorations = "Buttonless"
 
 # opacity
-opacity = 0.8
-
-# blur
-blur = true
+opacity = 0.6
 
 # make Option key behave as Alt
 option_as_alt = "Both"
 
 
-#======
-# Font
-#======
+#===============
+#     Font
+#===============
 [font]
 normal.family = "MesloLGS Nerd Font Mono"
-size = 19
+size = 16
