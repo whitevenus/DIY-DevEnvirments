@@ -20,8 +20,8 @@ return {
 				graphql = { "prettier" },
 				liquid = { "prettier" },
 				lua = { "stylua" },
-				c = { "clang_format" },
-				cpp = { "clang_format" },
+				-- c = { "clang_format" },
+				-- cpp = { "clang_format" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
@@ -30,9 +30,9 @@ return {
 			},
 		})
 
-		conform.formatters.clang_format = {
-			prepend_args = { "-style", "google" },
-		}
+		-- conform.formatters.clang_format = {
+		-- prepend_args = { "-style", "google" },
+		-- }
 
 		vim.keymap.set({ "n", "v" }, "<leader>mp", function()
 			conform.format({
